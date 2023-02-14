@@ -9,15 +9,15 @@ IMMATRICOLAZIONE|       DATE        |                    NOTNULL|
 ALIMENTAZIONE|          CHAR(2)     |                    NOTNULL|
 TIPO-CAMBIO|            CHAR(2)     |                    NOTNULL|
 NUERO-MARCE             CHAR(2)     |                    NOTNULL|
-STATO-CARROZERIA|       VARCHAR(50) |                    NOTNULL|
+STATO-CARROZERIA|       VARCHAR(50) |                       NULL|
 COLORE|                 VARCHAR(20) |                    NOTNULL|
-TRAZIONE|               CHAR(2)     |                    NOTNULL|
+TRAZIONE|               CHAR(2)     |                       NULL|
 POTENZA-KW|             VARCHAR(10) |                    NOTNULL|
 CILINDRATA|             VARCHAR(5)  |                    NOTNULL|          
 NUMERO-PORTE|           CHAR(1)     |                    NOTNULL|
 DESCRIZIONE|            TINYTEXT    |                    NULL   |
-TIPO-INTERNI|           VARCHAR(20) |                    NOTNULL|
-PREZZO-AQUISTO|         FLOAT(8, 2) |                    NOTNULL|
+TIPO-INTERNI|           VARCHAR(20) |                       NULL|
+PREZZO-AQUISTO|         FLOAT(8, 2) |                       NULL|
 PREZZO-VENDITA          FLOAT(8, 2) |                    NULL   |
 TARGA|                  VARCHAR(10) |                    NOTNULL|   
 ALLESTIMENTO|           VARCHAR(10) |                    NOTNULL|
